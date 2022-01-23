@@ -1,4 +1,4 @@
-// alert("press next round after each move")
+alert("press next round after each move")
 
 
 // initialising variables
