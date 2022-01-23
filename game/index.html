@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Twinkle+Star&family=Righteous&family=Russo+One&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main">
+        <div class="headingDiv">
+            
+            <h2>Score</h2>
+            <span class="scoreArea">
+                <span>
+                    <p>You</p> 
+                    <p class="playerScore"></p>
+                </span>
+                <p class="vs"> vs </p>
+                <span>
+                    <p>opp</p>
+                    <p class="computerScore"></p>
+                </span>
+            </span>
+            <h1 class="whoWon"></h1>
+        </div>
+        
+        <div class="mainGame">
+            <div class="clientInput">
+                <h2>Your Input</h2>
+                <span>
+                    <span> <button> <img class="hand paper" src="images/paper.png" alt="image"> </button></span>
+                    <span> <button> <img class="hand scissor" src="images/Scissor.png" alt="image"> </button></span>
+                    <span> <button> <img class="hand stone" src="images/stone.png" alt="image"> </button></span>
+                </span>
+            </div>
+           
+           <div class="computerGenerated">
+               <span>
+                   <h2>computer chooses</h2>
+                   <img class="computerOutput hand" src="" alt="">
+               </span>
+           </div>
+            
+        </div>
+    </section>
+    <button class="Button next">next round</button>
+    <button class="Button end">end game</button>
+    <button class="Button quit"><a href="/index.html">quit game</a></button>
+    <script src="script.js"></script>
+</body>
+</html>

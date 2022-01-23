@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: #fff;
+    text-align: center;
+    background-color: #06122c;
+}
+
+
+
+/* fonts used */
+
+
+
+/* 
+
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Twinkle Star', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Staatliches', cursive;
+
+*/
+
+
+
+/* general styling */
+
+
+
+
+
+
+/* specific styling */
+
+
+.headingDiv{
+    background-color: #ffffff00;
+    border: #fff 3px solid;
+    width: 35vh;
+    height: 9vh;
+    padding: 3%;
+    margin: 2% auto 1% auto;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
+    z-index: 1;
+    display: grid;
+    place-content: center;
+}
+
+.headingDiv h2{
+    font-size: 250%;
+    
+}
+
+.hand{
+    width: 18vh;
+    margin: 7% 5px;
+}
+
+
+.mainGame{
+    display: inline;
+
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+
+button :hover{
+    cursor: pointer;
+}
+
+.scoreArea{
+    display: flex;
+    margin: auto auto;
+    justify-content: space-around;
+    place-items: center;
+    width: 100%;
+}
+
+.scoreArea span{
+    display: grid;
+    place-items: center;
+    font-family: 'Staatliches', cursive;
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.scoreArea p{
+    margin:0 23%;
+}
+
+
+.heading{
+    margin-top: 5%;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+    font-size: 150%;
+}
+
+.mainGame{
+    font-family: 'Righteous', cursive;
+    font-size: 165%;
+}
+
+.Button{
+    border: none;
+    height: 4rem;
+    width: 12rem;
+    background-color: #2F7DD8;
+    color: #fff;
+    border-radius: 2rem;
+    font-size: 160%;
+    font-family: 'Russo One', sans-serif;
+    margin: 9% 1% 0 1%;
+}
+
+.Button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Button:hover{
+    cursor: pointer;
+}
+
+
+.computerOutput{
+    width: 18vh;
+    margin-top: 2%;
+}
+
+.computerGenerated, .clientInput{
+    display: inline-block;
+    margin: 2% 5% 0 5%;
+}
+
+.disabled{
+    opacity: 0.5;
+}
+
+.disabled:hover{
+    cursor: wait;
+}
+
+.whoWon{
+    font-family: 'Twinkle Star', cursive;
+    font-size: 132%;
+}
+
+@media (max-width:998px){
+    html{
+        font-size: 70%
+    }
+
+    .hand{
+        width:13vh ;
+    }
+
+    .headingDiv{
+        height: 15vh;
+        margin-bottom: 6%;
+    }
+}
+
+@media(max-height:600px){
+    html{
+        font-size: 60%;
+    }
+}

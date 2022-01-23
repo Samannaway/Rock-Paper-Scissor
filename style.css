@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: #fff;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+/* fonts used */
+
+
+
+/* font-family: 'Russo One', sans-serif;
+font-family: 'Staatliches', cursive; */
+
+
+
+/* general styling */
+
+
+
+
+
+
+/* specific styling */
+
+.bgVideo{
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vh;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+.headingDiv{
+    background-color: #ffffff00;
+    border: #fff 3px solid;
+    width: 35vh;
+    height: 6vh;
+    margin: 5% auto 3% auto;
+    padding: 2%;
+    font-size: 110%;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    z-index: 1;
+}
+
+.hand{
+    width: 21vh;
+}
+
+.scissorAndStone{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.playButton{
+    border: none;
+    height: 4rem;
+    width: 12rem;
+    background-color: #2F7DD8;
+    color: #fff;
+    border-radius: 2rem;
+    font-size: 160%;
+    margin-top: 2%;
+    font-family: 'Russo One', sans-serif;
+}
+
+.playButton a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.compyright{
+    margin-top: 3%;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width:999px){
+    html{
+        font-size: 80%;
+    }
+    
+    .hand{
+        margin-bottom: 10%;
+        width: 20.2vh;
+    }
+
+    .playButton{
+        height: 6rem;
+        width: 14rem;
+    }
+    
+    .bgVideo{
+        visibility: hidden;
+    }
+
+    .intro{
+        margin-top: 8%;
+    }
+}
