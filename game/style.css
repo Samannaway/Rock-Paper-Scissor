@@ -22,16 +22,10 @@ font-family: 'Twinkle Star', cursive;
 font-family: 'Righteous', cursive;
 font-family: 'Russo One', sans-serif;
 font-family: 'Staatliches', cursive;
+font-family: 'Jockey One', sans-serif;
+
 
 */
-
-
-
-/* general styling */
-
-
-
-
 
 
 /* specific styling */
@@ -41,7 +35,7 @@ font-family: 'Staatliches', cursive;
     background-color: #ffffff00;
     border: #fff 3px solid;
     width: 35vh;
-    height: 9vh;
+    height: 21vh;
     padding: 3%;
     margin: 2% auto 1% auto;
     text-align: center;
@@ -53,7 +47,7 @@ font-family: 'Staatliches', cursive;
 }
 
 .headingDiv h2{
-    font-size: 250%;
+    font-size: 150%;
     
 }
 
@@ -120,7 +114,7 @@ button :hover{
     border-radius: 2rem;
     font-size: 160%;
     font-family: 'Russo One', sans-serif;
-    margin: 9% 1% 0 1%;
+    margin: 4% 1% 0 1%;
 }
 
 .Button a{
@@ -156,6 +150,43 @@ button :hover{
     font-size: 132%;
 }
 
+.hide{
+    visibility: hidden;
+}
+
+.center{
+    margin: auto auto;
+    border: none;
+    height: 4rem;
+    width: 12rem;
+    background-color: #2F7DD8;
+    color: #fff;
+    border-radius: 2rem;
+    font-size: 160%;
+    font-family: 'Russo One', sans-serif;
+    display: block;
+    text-decoration: none;
+}
+
+.center a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.gameTime, .moveCoolDown{
+    font-family: 'Jockey One', sans-serif;
+    font-size: 100%;
+}
+
+.gameTime{
+    margin-top: 1rem;
+}
+
+.moveCoolDown{
+    margin-bottom: 1rem;
+}
+
+
 @media (max-width:998px){
     html{
         font-size: 70%
@@ -166,8 +197,9 @@ button :hover{
     }
 
     .headingDiv{
-        height: 15vh;
+        height: 19vh;
         margin-bottom: 6%;
+        margin-top: 5%;
     }
 }
 
